@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logotipo" src="./Img/Logo.png" alt="Logotipo">
+    </header>
+    <main>
+        <section class="conteudo__principal">
+            <h2 class="conteudo__principal__titulo">Digite seu texto</h2>
+            <div class="container">
+                <div class="input">
+                    <textarea class="texto__entrada" cols="70" rows="15" placeholder="Digite seu texto aqui"></textarea>
+                </div>
+                <div class="conteudo__principal__icone">
+                    <img src="./Img/exclamation.svg" alt="icone de atenção">
+                    <h4 class="conteudo__principal__subtitulo">Apenas letras minúsculas e sem acento.</h4>
+                </div>
+                <div class="conteudo__principal__bnt">
+                    <button class="criptografar">Criptografar</button>
+                    <button class="descriptografar">Descriptografar</button>
+                </div>
+            </div>
+            <div class="conteudo__lateral">
+                <textarea class="resultado" cols="35" rows="15" placeholder="Resultado..."></textarea> 
+                <button class="copiar">Copiar</button>
+            </div>    
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
