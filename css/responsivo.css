@@ -38,30 +38,33 @@
     }
 
     .conteudo__lateral{
-        display: block;
+
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         position: relative;
-        margin-bottom: 30px;
-        left: 50px;
-        top: 0;
-        height:0;
         width: 100%;
+        left: 0;
+        height: 0;
+        top:125px;
        
     }
 
-    .resultado{
-        
+    .container .resultado{
         border-radius: 5%;
         padding: 2rem;
         margin: 0;
         margin-bottom: 20px;
         height: 200px;
-        width: 80vw;
+        width: 82vw;
        
         
     }
 
     .copiar{
-       width: 80vw;
+       width: 82vw;
        padding: 2rem auto;
     }
 
