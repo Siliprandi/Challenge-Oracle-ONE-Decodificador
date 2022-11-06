@@ -38,7 +38,7 @@
     }
 
     .conteudo__lateral{
-        display: inline-block;
+        display: block;
         position: relative;
         margin-bottom: 30px;
         left: 50px;
@@ -49,15 +49,19 @@
     }
 
     .resultado{
+        
         border-radius: 5%;
         padding: 2rem;
         margin: 0;
+        margin-bottom: 20px;
+        height: 200px;
+        width: 80vw;
        
         
     }
 
     .copiar{
-       width: 75vw;
+       width: 80vw;
        padding: 2rem auto;
     }
 
